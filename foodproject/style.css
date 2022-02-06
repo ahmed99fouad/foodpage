@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+
+}
+
+.hero{
+     height: 100vh;
+     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8) ),url(traditional-food-around-the-world-Travlinmad.jpg);
+     background-position: center;
+     background-size: cover;
+     overflow-x: hidden;
+     position: relative;
+
+
+}
+.nav-bar{
+    display: flex;
+    padding: 40px 120px;
+}
+.nav-logo img{
+    width: 100px;
+   
+}
+.nav-links{
+    flex: 1;
+}
+.nav-links ul{
+    display:inline ;
+    margin-left: 50px;
+}
+.nav-links ul li{
+    display:inline-block ;
+    padding: 8px 25px;
+    list-style: none;
+}
+.nav-links ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content:" ";
+    width: 0%;
+    height: 2px;
+    display: block;
+    background-color: yellow;
+    margin: auto;
+    transition: 0.3s;
+}
+.nav-links ul li:hover:after{
+    width: 100%;
+   
+}
+.btn{
+    padding: 13px 25px;
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    color:black;
+
+
+
+    
+}
+.nav-links .btn{
+    float: right;
+
+}
+
+.btn:hover{
+    background-color: yellow;
+}
+.banner-title{
+    margin: 80px 130px;
+    counter:#fff;
+}
+
+
+.banner-title h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+    color: white;
+}
+.banner-title h1 span{
+    color: yellow;
+}
+.vertical-bar{
+    height: 100%;
+    position: absolute;
+    background-color: #000;
+    top: 0;
+    right: 0;
+}
+.search-icon{
+    height: 60%;
+    width: 80px;
+}
+
+.search-icon .fas{
+   margin: 45px 23px;
+   display: block;
+   color: #fff;
+   font-size: 30px;
+   cursor: pointer;
+}
